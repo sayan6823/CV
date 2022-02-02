@@ -1,0 +1,170 @@
+.main_heading{
+    background-color: black;
+    color:white;
+    padding:10px;
+    text-align: center;
+    font-family: Bradley Hand ITC;
+}
+
+.one{
+    background-color: rgb(82, 79, 79);
+    color:white;
+    font-size: 20px;
+    border:2px solid grey;
+    border-radius: 146px;
+    padding: 36px;
+    margin: auto;
+
+}
+
+#kiit{
+    text-decoration: none;
+    color:white;
+}
+  
+#kiit:hover{
+    color:blue;
+}
+
+#link{
+    border:2px solid black;
+    list-style: none;
+    display: inline-flex;
+    border-radius: 34px;
+    width:95%;
+    padding:14px;
+    margin:4px;
+    background-color: rgb(32, 14, 14);
+    
+}
+#link>li{
+    padding-left:28px;
+    padding-right:28px;
+    color:white;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+a:active{
+    color:grey;
+}
+
+
+
+a:visited{
+    color:rgb(255, 248, 248);
+}
+
+    
+    /* #mainImg{
+        border:2px solid red;
+        width: 252px;
+        height: 252px;
+        float: right;
+    } */
+
+
+
+    
+#foot{
+    background-color: black;
+    color:white;
+    padding:10px;
+}
+    
+#ed{
+    border:2px solid black;
+    border-radius: 372px;
+    padding: 200px;
+    margin:auto;
+    font-family:comic sans ms;
+    text-align:justify;
+    background-color: rgb(1, 250, 250);
+    
+}
+
+#sk{
+    border:2px solid black;
+    border-radius: 372px;
+    padding: 200px;
+    margin:auto;
+    font-family:comic sans ms;
+    text-align:justify;
+    background-color: rgb(149, 101, 204);
+    
+    
+}
+
+#in{
+    border:2px solid black;
+    border-radius: 372px;
+    padding: 200px;
+    margin:auto;
+    font-family:comic sans ms;
+    text-align:justify;
+    background-color: rgb(122, 122, 236);
+    
+    
+}
+
+#wo{
+    border:2px solid black;
+    border-radius: 372px;
+    padding: 200px;
+    margin:auto;
+    font-family:comic sans ms;
+    text-align:justify;
+    background-color: rgb(67, 148, 64);
+    
+    
+}
+
+#pro{
+    border:2px solid black;
+    border-radius: 372px;
+    padding: 200px;
+    margin:auto;
+    font-family:comic sans ms;
+    text-align:justify;
+    background-color: rgb(230, 123, 123);
+    
+}
+
+#cer{
+    border:2px solid black;
+    border-radius: 372px;
+    padding: 200px;
+    margin:auto;
+    font-family:comic sans ms;
+    text-align:justify;
+    background-color: rgb(131, 131, 32);
+    
+    
+}
+
+#soc{
+    border:2px solid black;
+    border-radius: 372px;
+    padding: 200px;
+    margin:auto;
+    font-family:comic sans ms;
+    text-align:justify;
+    background-color: springgreen;
+    
+    
+}
+
+body{
+    background-color: rgb(10, 39, 3);
+}
+
+a:hover{
+    border:2px solid white;
+    border-radius: 10px;
+    background-color: burlywood;
+    color: rgb(1, 8, 8);
+
+}
