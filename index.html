@@ -1,79 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal_Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <main>
-        <nav class=""navBar>
-            <h1>Sayan Chattopadhyay Portfolio</h1>
-            <div class="navigationMenu">
-                <a href="#aboutMe">About Me</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Project</a>
-                <a href="#contactForm">Let's Connect!</a>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My_Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main class='main'>
+      <nav class='navBar'>
+        <h1>Sayan Chattopadhyay Portfolio</h1>
+        <div class='navigationMenu'>
+          <a href="#aboutMe">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contactForm">Let's Connect!</a>
+        <div>
+      </nav>
+      <section class='heroSection'>
+        <img 
+        class='profileImage'
+        src='avatar.jpg'/>
+        <div class='herosectionDetails'>
+          <h1>Sayan Chattopadhyay</h1>
+          <h3>Passionate Coder</h3>
+        </div>
+      </section>
+      <section class='aboutMe' id='aboutMe'>
+        <h1>What I Do...</h1>
+        <p>I spend most of my time in online classes ,assignments and other college activities. So the time left with me is a bare minimum amount of time to do any other thing. But still, as an hobby i love to play games and to explore tech facts through online sites and youtube,quora,reddit etc etc. Other than that i love to listen to songs and podcasts and also listen to success stories of various people who made it big in the tech industry through their firm determination and hardwork. It brings up a sense of enthusiasm in me and i also get the motivation to work hard. Other than that,i also participate in various community discussions in telegram,discord,quora and reddit so as to improve my communication skills.</p>
+      </section>
+      <section class='skillsAndProjects'>
+        <div class='skills' id='skills'>
+          <h1 class='cardHeading'>Skills</h1>
+          <img title='HTML' src='./SVGs/html.svg'>
+          <img title='CSS' src='./SVGs/css.svg'>
+          <img title='Git' src='./SVGs/git.svg'>
+          <img title='Github' src='./SVGs/github.svg'>
+          <img title='C' src='./SVGs/c.svg'>
+          <img title='C++' src='./SVGs/cpp.svg'>
+
+        </div>
+        <div class='projects' id='projects'>
+          <h1 class='cardHeading'>Projects</h1>
+          <div class='projectContainer'>
+            <img src='./SVGs/code.svg'/>
+            <div class='projectDescription'>
+              <h4>Student Management System</h4>
+              <p>A project on student management system made using c++.</p>
+              <p class="seeProject"><a href="https://github.com/sayan6823/Student_Management_Software_CPP" target="_blank">SEE PROJECT!</a></p>
+              
             </div>
-        </nav>
-        <section class="heroSection">
-            <img class="profileImage" src="/Img/dp(1).jpeg" alt="Error Loading Image">
-            <div class="herosectionDetails">
-                <h1>Sayan Chattopadhyay</h1>
-                <h3>Passionate Coder</h3>
+          </div>
+          <div class='projectContainer'>
+            <img src='./SVGs/code.svg'/>
+            <div class='projectDescription'>
+              <h4>Portfolio Website</h4>
+              <p>My portfolio website</p>
+              <p class="seeProject"><a href="/" target="_blank">SEE PROJECT!</a></p>
             </div>
-        </section>
-        <section class="aboutMe" id="aboutMe">
-            <h1>What I Do....</h1>
-            <p>I spend most of my time in online classes ,assignments and other college activities. So the time left with me is a bare minimum amount of time to do any other thing. But still, as an hobby i love to play games and to explore tech facts through online sites and youtube,quora,reddit etc etc. Other than that i love to listen to songs and podcasts and also listen to success stories of various people who made it big in the tech industry through their firm determination and hardwork. It brings up a sense of enthusiasm in me and i also get the motivation to work hard. Other than that,i also participate in various community discussions in telegram,discord,quora and reddit so as to improve my communication skills.</p>
-        </section>
-        <section class="skillsAndProjects">
-            <div class="skills" id="skills">
-                <h1 class="cardHeading">Skills</h1>
-                <img src="/Img/html-svgrepo-com.svg" title="Html" type="svg">
-                <img src="/Img/css-3-svgrepo-com.svg" title="Css">
-                <img src="/Img/c-svgrepo-com.svg" title="C">
-                <img src="/Img/c-plusplus-svgrepo-com.svg" title="C++">
-                <img src="/Img/git-svgrepo-com.svg" title="Git">
-                <img src="/Img/github-svgrepo-com.svg" title="Github">
-            </div>
-            <div class="projects" id="projects">
-                <h1 class="cardHeading">Projects</h1>
-                <div class="projectContainer">
-                    <img src="/Img/code-svgrepo-com.svg" title="code">
-                    <div class="projectDescription">
-                        <h4>Project Name</h4>
-                        <p>Project Description</p>
-                    </div>
-                </div>
-                <div class="projectContainer">
-                    <img src="/Img/code-svgrepo-com.svg" title="code">
-                    <div class="projectDescription">
-                        <h4>Project Name</h4>
-                        <p>Project Description</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="contactForm" id="contactForm">
-            <h2>Let's Connect!</h2>
-            <div class="formGroup">
-                <label for="name">Enter Full Name: </label><br>
-                <input type="text" id="name" placeholder="Full Name">
-            </div>
-            <div class="formGroup">
-                <label for="email">Enter Mail Id: </label><br>
-                <input type="email" id="email" placeholder="Mail Id">
-            </div>
-            <div class="formGroup">
-                <label for="message">Message</label><br>
-                <textarea placeholder="Send Some Message!" id="message" name="Message: " cols="50" rows="4"></textarea>
-            </div>
-            <button class="submitButton"><a href="mailto:sayanchat6823@gmail.com" style="text-decoration: none;">Connect</a></button>
-            <button class="resetButton"><input type="reset"></button>
-        </section>
+          </div>
+        </div>
+      </section>
+         
+      <section class='contactForm' id='contactForm'>
+        <h1>Let's Connect!</h2>
+        <div class='formGroup'>
+          <label for='name'>Enter Full Name</label><br/>
+          <input type='text' id='name' placeholder='Full Name'/>
+        </div>
+        <div class='formGroup'>
+          <label for='email'>Email</label><br/>
+          <input type='text' id='email' placeholder='Email'/>
+        </div>
+        <div class='formGroup'>
+          <label for='message'>Message</label><br/>
+          <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+        </div>
+        <button class='submitButton' onClick={submit()}>Connect</button>
+
+      </section>
+     
     </main>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
