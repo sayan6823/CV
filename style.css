@@ -50,7 +50,7 @@ body::before {
 body {
   font-family: "Poppins", sans-serif;
 
-  background-image: url("/background.jpg");
+  background-image: url("background.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
